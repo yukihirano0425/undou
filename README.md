@@ -1,5 +1,16 @@
 # Getting Started with Create React App
 
+## activate venv
+cd ./undou-front/undou-back
+. venv/bin/activate
+
+## uvicorn main:app --reload
+fastAPI : http://127.0.0.1:8000
+fastAPIドキュメントへの接続: http://127.0.0.1:8000/docs/
+
+## connecting to ubuntu
+ssh -i ~/.ssh/aws_undou.pem ubuntu@ec2-13-231-114-225.ap-northeast-1.compute.amazonaws.com
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
